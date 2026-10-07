@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "juego-adivina-numero",
-    "slug": "juego-adivina-numero",
+    "name": "Mastermind: Adivina el Número",        
+    "slug": "mastermind-adivina",                     
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -13,14 +13,16 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.tuusuario.mastermindadivina"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.tuusuario.mastermindadivina"
     },
     "web": {
       "favicon": "./assets/favicon.png"
